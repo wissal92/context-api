@@ -1,0 +1,8 @@
+React.createContext() => sets up a context and returns an object with a provider and a
+Consumer, the two main components of the context api
+
+Provider => Used as high as possible in the component tree. it allows a Consumer
+to subscribe to context changes
+
+Consumer => Access the Provider to get the data it needs. the consumer is wat helps
+avoid "prop drilling".
